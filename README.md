@@ -18,7 +18,7 @@ The goal is to ship a scalable and safe model. The model must scale to meet dema
 Performing a **complete ETL (extract, transform, load)** on the CIFAR-100 dataset, training an image classifier using `sagemaker.estimator.Estimator`, and constructing a **unique endpoint API** used for predictions 
 
 ### 3.2 Building a full machine learning workflow
-Three lambda functions were created to automate the predictions of images and to filter low confidence rates (*3.2 Check project files section for more details*). These lambda functions were put together in a single workflow using AWS Step Functions
+Three lambda functions were created to automate the predictions of images and to filter low confidence rates (*Check project files 4.2 section for more details*). These lambda functions were put together in a single workflow using AWS Step Functions
 
 ![Working Step Functions Graph and example.png](https://github.com/Kshishtawy/Scalable-Image-Classification-application-on-Amazon-Sagemaker/blob/main/Working%20Step%20Functions%20Graph%20and%20example.png?raw=true)
 *A screenshot of the working step function utilizing the lambda function in a workflow*
